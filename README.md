@@ -178,6 +178,4 @@ Our approach bridges the gap between foundational LSTM-based systems and modern 
 
 The speaker encoder builds on the Real-Time Voice Cloning toolkit by Corentin Jemine and the GE2E loss from Google. This project extends those works with a transformer-based encoder, improved training, and modern UI.
 
-## Repository Move Notice
->
-> This repository hosts the current, active development of the project and captures all the latest updates. It was migrated from a private repository to streamline organization and improve long-term maintainability.
+### ➡️ [View the Original Project Repository on GitHub](https://github.com/Keegz-dz/SpeakEmbed-T)
