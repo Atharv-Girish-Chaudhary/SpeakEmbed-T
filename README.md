@@ -35,6 +35,12 @@ SpeakEmbed-T is a custom-trained Transformer-based speaker encoder that extracts
 
 Unlike conventional approaches built around recurrent architectures, SpeakEmbed-T replaces the standard LSTM encoder with a Transformer architecture trained using the GE2E loss objective, improving speaker discrimination while maintaining real-time inference capability. A combination of Transformer-based sequence modelling, GE2E optimisation, and phase-aware preprocessing enables the system to generalise more effectively to unseen speakers and noisy acoustic conditions than the LSTM-based baselines it replaces.
 
+<p align="left">
+  <a href="https://www.notion.so/Speech-to-Text-Synthesis-1be9a13cb0ab80b9ad17eea6fbd072c1?source=copy_link">
+    <img src="https://img.shields.io/badge/Read-Theoretical%20Foundations-%23222222?style=for-the-badge&logo=readthedocs&logoColor=white" />
+  </a>
+</p>
+
 ![Project Overview](assets/project-overview.png)
 
 <!-- ============================ TOC ============================ -->
