@@ -1,3 +1,7 @@
+# Adapted from Real-Time Voice Cloning by Corentin Jemine
+# https://github.com/CorentinJ/Real-Time-Voice-Cloning
+# Licensed under the MIT License
+
 from datetime import datetime
 from functools import partial
 from multiprocessing import Pool

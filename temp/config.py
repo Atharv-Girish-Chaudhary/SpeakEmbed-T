@@ -1,3 +1,7 @@
+# Adapted from Real-Time Voice Cloning by Corentin Jemine
+# https://github.com/CorentinJ/Real-Time-Voice-Cloning
+# Licensed under the MIT License
+
 librispeech_datasets = {
     "train": {
         "clean": ["LibriSpeech/train-clean-100", "LibriSpeech/train-clean-360"],

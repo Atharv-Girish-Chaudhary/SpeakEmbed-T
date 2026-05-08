@@ -1,3 +1,7 @@
+# Adapted from Real-Time Voice Cloning by Corentin Jemine
+# https://github.com/CorentinJ/Real-Time-Voice-Cloning
+# Licensed under the MIT License
+
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 from matplotlib.animation import FuncAnimation
 from matplotlib import cm

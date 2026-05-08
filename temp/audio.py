@@ -1,3 +1,7 @@
+# Adapted from Real-Time Voice Cloning by Corentin Jemine
+# https://github.com/CorentinJ/Real-Time-Voice-Cloning
+# Licensed under the MIT License
+
 from scipy.ndimage.morphology import binary_dilation
 from scripts.params import *
 from pathlib import Path
