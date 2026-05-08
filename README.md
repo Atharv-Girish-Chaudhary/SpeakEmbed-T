@@ -262,28 +262,13 @@ in three stages with factors (5, 5, 8), matching the synthesizer's 200-sample ho
 
 - Python 3.10
 - 8 GB RAM (16 GB recommended for training)
-- Docker and Docker Compose (if using the Docker path)
 - At least 5 GB of free disk space (for model weights and processed data)
 - An NVIDIA GPU with CUDA is optional but recommended for training; CPU is sufficient for inference
 
 ### Quick start
 
-The fastest way to run the app requires only Docker:
+Run the application locally with a conda environment:    
 
-1. Clone the repository and Navigate to root directory.
-    ```bash
-    git clone https://github.com/Keegz-dz/SpeakEmbed-T.git
-    cd SpeakEmbed-T
-    ```
-2. Run the following command to build the Docker image and start the application:
-    ```bash
-    docker compose up --build
-    ```
-3. Open your browser and navigate to [http://localhost:8501](http://localhost:8501).
-
-    ![Project Overview](assets/studio.png)
-
-**Run the application locally with a Python virtual environment**
 1. Create and activate a virtual environment:
     ```bash
     python -m venv .venv
@@ -299,6 +284,8 @@ The fastest way to run the app requires only Docker:
     streamlit run streamlit_app.py
     ```
 4. Open your browser and navigate to [http://localhost:8501](http://localhost:8501).
+
+   ![Project Overview](assets/studio.png)
 
 <!-- ============================ STRUCTURE ============================ -->
 ## Project Structure
