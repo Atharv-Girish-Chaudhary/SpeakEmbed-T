@@ -26,7 +26,7 @@
 
 <!-- Animated demo GIF which conveys the project's value instantly. -->
 <p align="center">
-  <img src="assets/demo_speakT.gif" alt="{{PROJECT_TITLE}} Demo" width="800">
+  <img src="assets/demo_speakT.gif" alt="Demo" width="800">
 </p>
 
 <!-- ============================ TL;DR ============================ -->
@@ -130,14 +130,6 @@ SpeakEmbed-T is structured as a three-stage voice synthesis pipeline. A speaker 
 <p align="center">
   <img src="assets/data-flow.png" alt="System architecture">
 </p>
-
-
-
-
-
-
-
-
 
 
 ### 1. Speaker Encoder
@@ -287,7 +279,7 @@ Run the application locally with a conda environment:
     ```
 3. Launch the Streamlit application:
     ```bash
-    streamlit run streamlit_app.py
+    streamlit run app.py
     ```
 4. Open your browser and navigate to [http://localhost:8501](http://localhost:8501).
 
@@ -449,7 +441,7 @@ downstream.
 
 3. **The full cloning pipeline is not real-time.** The speaker encoder alone operates
 in real time, embedding extraction takes ~120ms on CPU. The bottleneck is the
-downstream synthesis: Tacotron 2 and WaveRNN together take approximately 30 seconda
+downstream synthesis: Tacotron 2 and WaveRNN together take approximately 20 seconds
 on CPU per inference, making the complete voice cloning pipeline unsuitable for
 streaming or interactive applications without hardware acceleration.
 
