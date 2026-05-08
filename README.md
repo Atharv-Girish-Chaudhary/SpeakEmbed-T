@@ -106,6 +106,7 @@ https://github.com/user-attachments/assets/58df0ba0-a2d8-4937-bb92-aa9e14fe0225
     Voice Cloning Demo.
   </sub>
 </p>
+<br>
 
 https://github.com/user-attachments/assets/b9d764d2-b19a-405b-8541-e5d6aacaa1b7
 <p align="center">
@@ -165,7 +166,10 @@ false positives and fill brief gaps, then the retained speech windows are
 concatenated.
 
 $$
-\text{smoothed\_flags}[i] = \frac{1}{W} \sum_{j=i-\frac{W}{2}}^{i+\frac{W}{2}} \text{voice\_flags}[j]
+\text{smoothed flags}[i] =
+\frac{1}{W}
+\sum_{j=i-\frac{W}{2}}^{i+\frac{W}{2}}
+\text{voice flags}[j]
 $$
 
 ```bash
@@ -302,8 +306,8 @@ The fastest way to run the app requires only Docker:
 SpeakEmbed-T/
 │
 ├── app.py                        # voice cloning studio UI
-├── environment.yml               # 
-├── requirements.txt              # 
+├── environment.yml               
+├── requirements.txt              
 │
 ├── scripts/                     
 │   ├── main.py                       # Orchestrates encoder → synthesizer → vocoder pipeline
