@@ -30,6 +30,7 @@
 </p>
 
 <!-- ============================ TL;DR ============================ -->
+## Overview
 SpeakEmbed-T is a custom-trained Transformer-based speaker encoder that extracts compact speaker representations from short audio samples. The model converts speech into discriminative embedding vectors that capture speaker identity, enabling downstream tasks such as voice cloning and speaker diarisation. The project focuses on the speaker encoder itself as the primary research component, with downstream applications included to demonstrate the quality of the learned embedding space. 
 
 Unlike conventional approaches built around recurrent architectures, SpeakEmbed-T replaces the standard LSTM encoder with a Transformer architecture trained using the GE2E loss objective, improving speaker discrimination while maintaining real-time inference capability. A combination of Transformer-based sequence modelling, GE2E optimisation, and phase-aware preprocessing enables the system to generalise more effectively to unseen speakers and noisy acoustic conditions than the LSTM-based baselines it replaces.
