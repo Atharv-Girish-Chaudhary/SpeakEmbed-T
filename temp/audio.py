@@ -12,6 +12,8 @@ import librosa
 import struct
 
 try:
+    import warnings
+    warnings.filterwarnings("ignore", message="pkg_resources is deprecated", category=UserWarning)
     import webrtcvad
 except:
     warn("Unable to import 'webrtcvad'. This package enables noise removal and is recommended.")

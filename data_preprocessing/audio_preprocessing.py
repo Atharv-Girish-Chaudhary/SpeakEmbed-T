@@ -2,6 +2,8 @@ import numpy as np
 import librosa
 import torch
 try:
+    import warnings
+    warnings.filterwarnings("ignore", message="pkg_resources is deprecated", category=UserWarning)
     import webrtcvad  # Optional; used for VAD-based silence trimming
 except Exception:
     webrtcvad = None
