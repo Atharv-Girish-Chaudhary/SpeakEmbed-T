@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/badge/Licence_MIT-1F2937?style=for-the-badge&logo=open-source-initiative&logoColor=white" />
   </a>
   <a href="https://pytorch.org/">
-    <img src="https://img.shields.io/badge/PyTorch_2.6-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+    <img src="https://img.shields.io/badge/PyTorch_2.8-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
   </a>
   <a href="https://www.python.org/downloads/release/python-3100/">
     <img src="https://img.shields.io/badge/Python_3.10-3776AB?style=for-the-badge&logo=python&logoColor=white" />
