@@ -54,12 +54,13 @@ numpy==1.26.4
 packaging==24.2
 pandas==2.2.3
 parso==0.8.4
+pesq==0.0.4
 pexpect==4.9.0
 pillow==11.1.0
 platformdirs==4.3.7
 pooch==1.8.2
 prompt_toolkit==3.0.50
-protobuf==5.29.5
+protobuf==5.29.4
 psutil==7.0.0
 ptyprocess==0.7.0
 pure_eval==0.2.3
@@ -69,6 +70,7 @@ pydeck==0.9.1
 Pygments==2.19.1
 pynndescent==0.5.13
 pyparsing==3.2.3
+pystoi==0.4.1
 python-dateutil==2.9.0.post0
 python_speech_features==0.6
 pytz==2025.2
@@ -78,6 +80,7 @@ referencing==0.36.2
 regex==2024.11.6
 requests==2.32.3
 rpds-py==0.24.0
+ruff @ file:///Users/runner/miniforge3/conda-bld/bld/rattler-build_ruff_1752279338/work
 safetensors==0.5.3
 scikit-learn==1.6.1
 scipy==1.15.2
@@ -93,10 +96,9 @@ tenacity==9.1.2
 threadpoolctl==3.6.0
 tokenizers==0.21.1
 toml==0.10.2
-# torch>=2.6.0
 torch==2.2.2
 torchaudio==2.2.2
-tornado>=6.5
+tornado==6.5.1
 tqdm==4.67.1
 traitlets==5.14.3
 transformers==4.51.2
