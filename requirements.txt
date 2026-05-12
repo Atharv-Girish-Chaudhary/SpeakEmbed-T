@@ -90,13 +90,13 @@ soundfile==0.13.1
 soxr==0.5.0.post1
 stack-data==0.6.3
 streamlit==1.54.0
-sympy==1.13.1
+sympy==1.13.3
 tenacity==9.1.2
 threadpoolctl==3.6.0
 tokenizers==0.21.1
 toml==0.10.2
-torch==2.6.0
-torchaudio==2.6.0
+torch==2.8.0
+torchaudio==2.8.0
 tornado==6.5.5
 tqdm==4.67.1
 traitlets==5.14.3
