@@ -269,19 +269,14 @@ Run the application locally with a conda environment:
 
 1. Create and activate a virtual environment:
     ```bash
-    python -m venv .venv
-    source .venv/bin/activate
-    ```
-2. Install the required dependencies:
-    ```bash
     conda env create -f environment.yml
     conda activate speakembed-T
     ```
-3. Launch the Streamlit application:
+2. Launch the Streamlit application:
     ```bash
     streamlit run app.py
     ```
-4. Open your browser and navigate to [http://localhost:8501](http://localhost:8501).
+3. Open your browser and navigate to [http://localhost:8501](http://localhost:8501).
 
    ![Project Overview](assets/studio.png)
 
